@@ -9,7 +9,7 @@ const styles = require("../styles.scss")
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  buttonColor = styles["colors-primary"]; //"#387ef5"
+  buttonColor = styles["colors-primary"]; // expecting "#387ef5", actually undefined
 
   ngOnInit() {
       console.log(styles);
